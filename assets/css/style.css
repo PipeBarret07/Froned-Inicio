@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #000000, #001f3f);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Agregamos esto para centrar verticalmente */
+}
+
+.encabezamiento {
+    text-align: left; /* Alineación a la izquierda */
+    margin-top: 20px;
+    margin-left: 20px; /* Espacio a la izquierda */
+    font-size: 1.5rem;
+    color: #f39c12; /* Cambio de color naranja más oscuro */
+    position: absolute; /* Posición absoluta */
+    top: 0;
+    left: 20px;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    background: linear-gradient(to bottom, #001f3f, #000000); /* Fondo con degradado más oscuro */
+    padding: 40px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #f39c12; /* Cambio de color naranja */
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.titulo {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff; /* Fondo color blanco */
+    color: #333;
+}
+
+.boton {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #001f3f;
+}
+
+.enlaces {
+    text-align: center;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.enlaces a {
+    color: #f39c12; /* Cambio de color naranja */
+    text-decoration: none;
+}
+
+.enlaces a:hover {
+    text-decoration: underline;
+}
+
+/* Cambio de color de los textos a naranja */
+.enlaces a,
+.titulo,
+.enlaces p,
+a {
+    color: #f39c12; /* Cambio de color naranja */
+}
