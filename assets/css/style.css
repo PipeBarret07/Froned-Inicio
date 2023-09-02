@@ -34,9 +34,15 @@ body {
     max-width: 500px;
     background: linear-gradient(to bottom, #001f3f, #000000); /* Fondo con degradado más oscuro */
     padding: 40px;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 0 20px rgba(243, 156, 18, 0.5); /* Agregamos sombra */
     border-radius: 10px;
     color: #f39c12; /* Cambio de color naranja */
+    border: 2px solid orange; /* Agregamos un borde naranja */
+}
+
+
+.form-container h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agregamos sombra al texto */
 }
 
 .formulario {
