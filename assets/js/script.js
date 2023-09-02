@@ -43,3 +43,19 @@ formularioRegistro.addEventListener('submit', function (event) {
     }
 });
 
+let animatedBackground = false;
+
+window.addEventListener('scroll', () => {
+    if (!animatedBackground) {
+        startBackgroundAnimation();
+        animatedBackground = true;
+    }
+});
+
+function startBackgroundAnimation() {
+    const body = document.body;
+    body.style.animation = 'gradient 15s linear infinite';
+}
+
+
+
