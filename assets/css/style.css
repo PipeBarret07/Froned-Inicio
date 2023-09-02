@@ -6,9 +6,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(45deg, #f39c12, #000 40%, #024281);
+    background: linear-gradient(45deg, #007bff, #000 50%, #f39c12);
     background-size: 400% 400%;
-    animation: gradient 15s linear infinite;
+    background-attachment: fixed;
+    background-position: 0% 50%;
+    animation: gradient 5s linear infinite; 
 }
 
 @keyframes gradient {
