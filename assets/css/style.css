@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(45deg, #007bff, #000 50%, #f39c12);
+    background: linear-gradient(45deg, #2e86c1, #000 50%, #f39c12);
     background-size: 400% 400%;
     background-attachment: fixed;
     background-position: 0% 50%;
@@ -25,6 +25,17 @@ body {
     }
 }
 
+.mostrar-contraseña {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.mostrar-contraseña i {
+    display: none;
+}
 
 
 .container {
@@ -50,17 +61,17 @@ body {
 .form-container {
     width: 100%;
     max-width: 500px;
-    background: linear-gradient(to bottom, #024281, #000000); /* Fondo con degradado más oscuro */
+    background: linear-gradient(to bottom, #2e86c1, #000000); /* Fondo con degradado  oscuro */
     padding: 40px;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 0 20px rgba(243, 156, 18, 0.5); /* Agregamos sombra */
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 0 20px rgba(243, 156, 18, 0.5); /* sombra */
     border-radius: 10px;
-    color: #f39c12; /* Cambio de color naranja */
-    border: 2px solid orange; /* Agregamos un borde naranja */
+    color: #f39c12; 
+    border: 2px solid #f39c12; /* borde naranja */
 }
 
 
 .form-container h2 {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agregamos sombra al texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra al texto */
 }
 
 .formulario {
@@ -83,7 +94,7 @@ input {
     margin: 0.5rem 0;
     border: none;
     border-radius: 5px;
-    background-color: #fff; /* Fondo color blanco */
+    background-color: #fff;
     color: #333;
 }
 
@@ -100,7 +111,7 @@ input {
 }
 
 .boton:hover {
-    background-color: #024281;
+    background-color: #2e86c1;
 }
 
 .enlaces {
@@ -110,7 +121,7 @@ input {
 }
 
 .enlaces a {
-    color: #f39c12; /* Cambio de color naranja */
+    color: #f39c12; 
     text-decoration: none;
 }
 
@@ -118,10 +129,10 @@ input {
     text-decoration: underline;
 }
 
-/* Cambio de color de los textos a naranja */
+
 .enlaces a,
 .titulo,
 .enlaces p,
 a {
-    color: #f39c12; /* Cambio de color naranja */
+    color: #f39c12; 
 }

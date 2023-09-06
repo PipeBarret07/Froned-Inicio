@@ -57,5 +57,3 @@ function startBackgroundAnimation() {
     body.style.animation = 'gradient 15s linear infinite';
 }
 
-
-
